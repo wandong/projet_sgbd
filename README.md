@@ -334,6 +334,10 @@ end;
 
 
 ---------- il faut donner les droit 
+grant execute on commandeproduit to public;
+grant execute on recevoircommande to public;
+grant execute on informationproduit to public;
+
 /* records in table category */
 INSERT INTO category VALUES (seq_category.nextval, 'book');
 INSERT INTO category VALUES (seq_category.nextval, 'clothes');
